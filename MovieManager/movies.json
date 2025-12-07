@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "id": "2",
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "year": 1994
+    },
+    {
+      "id": "72d4",
+      "title": "Titanic",
+      "year": 2001,
+      "genre": "romance"
+    },
+    {
+      "id": "ab4f",
+      "title": "spiderman",
+      "genre": "thriller",
+      "year": 2014
+    },
+    {
+      "id": "2197",
+      "title": "Stranger things",
+      "year": 2025,
+      "genre": "thriller"
+    }
+  ]
+}

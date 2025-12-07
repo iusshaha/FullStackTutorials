@@ -1,0 +1,170 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%); /* black gradient */
+    padding: 30px;
+    color: #f5d67b; /* gold text */
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    color: #d4af37; /* gold */
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 25px 0;
+    color: #f2e5b8; /* soft gold */
+}
+
+/* ===== FORM (Glassmorphism Card) ===== */
+form {
+    background: rgba(20, 20, 20, 0.55);
+    backdrop-filter: blur(10px);
+    padding: 22px;
+    width: 380px;
+    margin: 0 auto;
+    border-radius: 14px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+    transition: 0.25s ease;
+}
+
+form:hover {
+    transform: translateY(-3px);
+}
+
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 2px solid #555; /* dark grey */
+    border-radius: 10px;
+    font-size: 15px;
+    background: #1f1f1f; /* dark input */
+    color: #f9e8b1; /* soft gold text */
+    transition: 0.25s ease;
+}
+
+form input:focus {
+    border-color: #d4af37; /* gold border */
+    box-shadow: 0 0 6px rgba(212,175,55,0.5);
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #d4af37; /* gold */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000; /* black text on gold */
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+form button:hover {
+    background: #b8912f; /* darker gold */
+    transform: translateY(-2px);
+}
+
+#search-input {
+    width: 350px;
+    display: block;
+    margin: 25px auto;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid #555; /* dark border */
+    background: #1f1f1f; /* dark input */
+    color: #f9e8b1; /* readable gold */
+    transition: 0.3s ease;
+}
+
+#search-input:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+    outline: none;
+}
+
+#movie-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.movie-item {
+    background: rgba(30, 30, 30, 0.55);
+    backdrop-filter: blur(12px);
+    padding: 18px 22px;
+    margin-bottom: 18px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s ease;
+}
+
+.movie-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.8);
+}
+
+
+.movie-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f9e8b1;
+}
+
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+
+.button-group button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s ease;
+    font-size: 14px;
+}
+
+
+.button-group button:first-child {
+    background-color: #cfa22d; 
+}
+
+.button-group button:first-child:hover {
+    background-color: #b48c26; 
+    transform: scale(1.07);
+}
+
+.button-group button:last-child {
+    background-color: #b93a2f; 
+}
+
+.button-group button:last-child:hover {
+    background-color: #a12f26; /* darker red */
+    transform: scale(1.07);
+}
